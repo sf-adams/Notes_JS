@@ -4,18 +4,18 @@
 
 | No. | Questions |
 |---- | ---------
-|1  | [What are the data types supported by JavaScript?](#what-are-the-data-types-supported-by-javascript-?) |
-|2  | [What is a primitive data type?](#what-is-a-primitive-data-type-?) |
+|1  | [What are the data types supported by JavaScript?](#what-are-the-data-types-supported-by-javascript) |
+|2  | [What is a primitive data type?](#what-is-a-primitive-data-type) |
 
 1. ### What are the data types supported by JavaScript?
 
-    * String - a series of characters
-    * Boolean - either true or false
-    * Number - integers or decimals (no floats or ints like python)
-    * Undefined - indicates that a variable has not been assigned a value, or not declared at all
-    * Null - the intentional absence of any object value
-    * Object - a standalone entity, with properties and type
-    * Symbol - a built-in object whose constructor returns a symbol primitive
+    * **String** - a series of characters
+    * **Boolean** - either true or false
+    * **Number** - integers or decimals (no floats or ints like python)
+    * **Undefined** - indicates that a variable has not been assigned a value, or not declared at all
+    * **Null** - the intentional absence of any object value
+    * **Object** - a standalone entity, with properties and type
+    * **Symbol** - a built-in object whose constructor returns a symbol primitive
 
 2. ### What is a primitive data type?
 
