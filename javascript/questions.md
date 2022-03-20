@@ -37,8 +37,6 @@
 
   It is passed to some method as an argument or option.
 
-
-
 3. ### What is closure? 
 
   A function that is to be executed **after** another function has finished executing.
@@ -47,11 +45,10 @@
 
 4. ### What are truthy and falsy values?
 
-
 5. ### Is JavaScript weakly or strongly typed?
 
 6. ### How do you declare a variable in JavaScript?
 
-
+7. ### Why is Node useful?
 
 
