@@ -37,12 +37,6 @@
 
   It is passed to some method as an argument or option.
 
-3. ### What is closure? 
-
-  A function that is to be executed **after** another function has finished executing.
-
-  It is passed to some method as an argument or option.
-
 4. ### What are truthy and falsy values?
 
 5. ### Is JavaScript weakly or strongly typed?
@@ -50,5 +44,17 @@
 6. ### How do you declare a variable in JavaScript?
 
 7. ### Why is Node useful?
+
+8. ### What is closure? 
+
+9. ### What is whitespace and how does it differ from indentation?
+
+Whitespace is any character or series of characters which creates space on a page but does not display a visible mark. Common whitespace characters include tabs and spaces.
+
+Indentation is a type of horizontal whitespace strategically used to enhance the readability of our code. For example, in HTML it is best practice to consistently indent our code to clearly illustrate nestings.
+
+> Think of it as **space around objects**, that helps to delineate the various objects in the document.
+
+In HTML for example, by using nesting levels, the reading and organisation of the code is clearer as you can see where an element begins and ends.
 
 
