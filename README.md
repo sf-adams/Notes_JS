@@ -6,9 +6,30 @@ As you go along, put any topics you want to cover in this list. This is a good w
 
 <!-- Table to show the topic and language -->
 
-| Topic | Language |
-| ----- | -------- |
-| Redux |          |
+
+## Top Priority
+- Typescript
+- Jest and Cypress (TDD)
+- SQL, GraphQL and APIs
+- Clear, clean code (general)
+- Accessibility (React ARIA and A11y)
+
+## Extra
+- Writing clear, and scalable code (making accessible, reusable components)
+- Testable code - you need to make sure that others can test it (Jest and Cypress)
+- Technical debt & debugging
+- React Native once you get the hang of React
+- AWS is a good place to start with cloud computing
+- Saas architecture - how to build a scalable app
+
+Things you could get from STA, Open source or other places
+- Paired programming
+- Code reviews
+- Improving a code base
+- Agile software development
+
+
+
 
 - DevTools
 - Text Editors
