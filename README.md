@@ -1,6 +1,12 @@
-# notes
+# Edenbridge
 
-This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
+A test build of the Edenbridge website. It is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
+
+## To Do
+- [ ] Aurelia Set Up
+- [ ] Implement Routes
+- [ ] Cypress Testing
+- [ ] Animations
 
 ## Start dev web server
 

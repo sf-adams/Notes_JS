@@ -1,1 +1,5 @@
-<div class="message">${message}</div>
+<div class="container">
+  <template repeat.for="component of components">
+      <au-compose containerless component.bind="component"></au-compose>
+  </template>
+</div>
