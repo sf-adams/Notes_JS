@@ -1,13 +1,28 @@
-import { DateComponent } from "./components/date-component";
-import { NotesComponent } from "./components/notes-component";
-import { ExchangeComponent } from "./components/exchange-component";
-import { Header } from "./components/header";
-
 export class MyApp {
-  public components = [
-    Header,
-    NotesComponent,
-    DateComponent,
-    ExchangeComponent,
+  static routes = [
+    {
+      path: "",
+      component: () => import("./components/home-page"),
+      id: "Home",
+      title: "Home",
+    },
+    {
+      path: "",
+      component: () => import("./components/contact-page"),
+      id: "Home",
+      title: "Home",
+    },
+    {
+      path: "",
+      component: () => import("./components/home-page"),
+      id: "Home",
+      title: "Home",
+    },
+    {
+      path: "",
+      component: () => import("./components/home-page"),
+      id: "Home",
+      title: "Home",
+    },
   ];
 }

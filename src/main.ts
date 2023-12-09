@@ -1,6 +1,12 @@
-import Aurelia from 'aurelia';
-import { MyApp } from './my-app';
+import Aurelia from "aurelia";
+import { RouterConfiguration } from "@aurelia/router";
+import { MyApp } from "./my-app";
 
-Aurelia
+Aurelia.register(
+  RouterConfiguration.customize({
+    title: "${componentTitles}${appTitleSeparator}Edenbridge",
+    useUrlFragmentHash: false
+  })
+)
   .app(MyApp)
   .start();
