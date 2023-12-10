@@ -1,8 +1,12 @@
 <header class="header">
   <div class="container">
-    <a load="/">Edenbridge</a>
-    <nav>
-      <a repeat.for="link of links" load="${link.path}">${link.name}</a>
+    <a class="header__logo" load="/"
+      ><img src.bind="logo" alt="Edenbridge Logo"
+    /></a>
+    <nav class="header__nav">
+      <a class="header__link" repeat.for="link of links" load="${link.path}"
+        >${link.name}</a
+      >
     </nav>
   </div>
 </header>
