@@ -1,5 +1,10 @@
-<!-- Two routes using the load attribute containing the path of the route -->
-<a load="/">Home</a>
+<header class="header">
+  <div class="container">
+    <a load="/">Edenbridge</a>
+    <nav>
+      <a repeat.for="link of links" load="${link.path}">${link.name}</a>
+    </nav>
+  </div>
+</header>
 
-<!-- This is where our routed components are loaded -->
-<au-viewport></au-viewport>
+<au-viewport class="container"></au-viewport>
