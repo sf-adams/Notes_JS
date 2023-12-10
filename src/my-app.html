@@ -1,8 +1,6 @@
 <header class="header">
   <div class="container">
-    <a class="header__logo" load="/"
-      ><img src.bind="logo" alt="Edenbridge Logo"
-    /></a>
+    <a class="header__logo" load="/"><img src.bind="logo" /></a>
     <nav class="header__nav">
       <a class="header__link" repeat.for="link of links" load="${link.path}"
         >${link.name}</a

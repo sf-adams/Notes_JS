@@ -38,7 +38,7 @@ export class MyApp {
     },
   ];
 
-  private logo = "../img/logo.png";
+  private logo = "/static/logo.png";
 
   private links = [
     {path: "/", name: "Home"},

@@ -21,6 +21,7 @@
     "@typescript-eslint/parser": "^5.60.1",
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
+    "cypress": "^13.6.1",
     "dotenv-webpack": "^8.0.1",
     "eslint": "^8.43.0",
     "html-webpack-plugin": "^5.5.3",
@@ -51,7 +52,8 @@
     "start": "webpack serve",
     "build": "rimraf dist && webpack --env production",
     "analyze": "rimraf dist && webpack --env production --analyze",
-    "test": "jest"
+    "test": "jest",
+    "cypress": "cypress open"
   },
   "jest": {
     "testMatch": [
