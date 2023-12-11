@@ -41,10 +41,10 @@ export class MyApp {
   private logo = "/static/logo.png";
 
   private links = [
-    {path: "/", name: "Home"},
-    {path: "/products", name: "Products & Services"},
-    {path: "/customers", name: "Our Customers"},
-    {path: "/news", name: "News & Events"},
-    {path: "/about", name: "About Us"},
+    {path: "", name: "Home"},
+    {path: "products", name: "Products & Services"},
+    {path: "customers", name: "Our Customers"},
+    {path: "news", name: "News & Events"},
+    {path: "about", name: "About Us"},
   ]
 }

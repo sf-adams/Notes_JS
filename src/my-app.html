@@ -1,8 +1,13 @@
 <header class="header">
   <div class="container">
     <a class="header__logo" load="/"><img src.bind="logo" /></a>
-    <nav class="header__nav">
-      <a class="header__link" repeat.for="link of links" load="${link.path}"
+    <!-- <nav class="header__nav" data-cy="nav"> -->
+      <nav class="header__nav">
+      <a
+        class="header__link"
+        repeat.for="link of links"
+        load="/${link.path}"
+        data-cy="${link.path}"
         >${link.name}</a
       >
     </nav>
